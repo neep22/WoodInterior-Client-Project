@@ -1,0 +1,614 @@
+/* Medium Layout: 1280px. 
+
+Checking Size: 1000px
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+    .slide-img {
+        margin-right: -100px;
+    }
+    iframe {
+        margin: 155px 200px;
+    }
+    .section-info h4, .projects-area .projects-content .section-info h4 {
+        font-size: 47px;
+    }
+    .single-about i {
+        width: 42px;
+        font-size: 37px;
+    }
+    .facilities-area::before {
+        width: 40%;
+    }
+    .facilities-area .banner-link {
+        margin-left: 530px;
+    }
+    .facilities-area .banner-link a i {
+        width: 71px;
+        height: 71px;
+        line-height: 71px;
+        font-size: 27px;
+    }
+    .list {
+        flex-basis: 45%;
+    }
+    .single-img span {
+        margin-top: -180px;
+    }
+    .propertise-title h4 a {
+        font-size: 27px;
+    }
+    .explore-img {
+        flex-basis: 62%;
+    }
+    .explore-area .single-propertise {
+        flex-basis: 37%;
+    }
+    .explore-area .single-img span {
+        margin-top: -211px;
+    }
+    .services-area .section-info, .apartment-area .section-info, .team-area .section-info, .aminities-area .section-info, .news-area .section-info {
+        margin: 0 200px;
+    }
+    .info h4 {
+        font-size: 18px;
+    }
+    .info span {
+        font-size: 15px;
+        padding: 5px;
+    }
+    .social-link {
+        margin-top: -17px;
+        margin-left: 65px;
+    }
+    .single-aminities {
+        flex-basis: 49%;
+        padding: 30px;
+    }
+    .aminities-icon {
+        margin-left: 297px;
+    }
+    .clients-area {
+        margin-left: 20px;
+    }
+    .news-info span {
+        font-size: 23px;
+    }
+    .contact-form {
+        flex-basis: 55%;
+    }
+    .contact-info {
+        flex-basis: 44%;
+    }
+    .promo-area {
+        margin-left: 18px;
+    }
+    .single-footer:first-child {
+        flex-basis: 258px;
+    }
+    .single-footer {
+        flex-basis: 177px;
+    }
+    .copyright p {
+        margin-left: 250px;
+    }
+}
+
+/* Tablet Layout: 768px. 
+
+Checking Size: 800px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 750px;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .logo {
+        margin-bottom: 25px;
+    }
+    .menu ul li {
+        padding: 0 17px;
+    }
+    .banner-info {
+        flex-basis: 58%;
+    }
+    .banner-info span {
+        font-size: 17px;
+    }
+    .banner-info h1 {
+        font-size: 45px;
+        padding: 11px 0;
+    }
+    .banner-info p {
+        font-size: 16px;
+        padding-left: 19px;
+    }
+    .slide-img {
+        flex-basis: 67%;
+        margin-right: -190px;
+    }
+    .banner-link button {
+        padding: 12px 20px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .banner-link a i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+    iframe {
+        margin: 150px 88px;
+    }
+    /* About Area */
+    .about {
+        flex-direction: column;
+    }
+    .about-img {
+        flex-basis: 100%;
+    }
+    .about-content {
+        flex-basis: 100%;
+        padding-top: 150px;
+    }
+    .facilities-area::before {
+        width: 100%;
+    }
+    .facilities {
+        position: absolute;
+        margin-top: -455px;
+        max-width: 100%;
+    }
+    .facilities-area .section-info span{
+        color: #ff5a3c;
+        text-transform: capitalize;
+        font-size: 19px;
+        color: white;
+    }
+    .facilities-area .section-info p {
+        color: white;
+    }
+    .facilities-area .single-facilities span {
+        color: white;
+    }
+    .facilities-area .banner-link {
+        margin-left: 566px;
+        margin-top: -280px;
+    }
+    .facilities-area .banner-link a i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 19px;
+        padding-left: 2px;
+    }
+    .services-area .section-info, .apartment-area .section-info, .team-area .section-info, .aminities-area .section-info, .news-area .section-info {
+        text-align: center;
+        margin: 0;
+    }
+    .services {
+        flex-direction: column;
+    }
+    .single-services {
+        flex-basis: 100%;
+        margin-bottom: 37px;
+    }
+    .projects-area .section-info {
+        margin-top: -604px;
+    }
+    .projects {
+        margin-top: -382px;
+        max-width: 100%;
+    }
+    .single-project {
+        flex-direction: column;
+    }
+    .projects-content {
+        flex-basis: 100%;
+    }
+    .apartment {
+        flex-direction: column;
+    }
+    .apartment-content {
+        flex-basis: 100%;
+    }
+    .apartment-img {
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+    .propertise {
+        flex-direction: column;
+    }
+    .single-propertise {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .single-img span {
+        margin-top: -473px;
+    }
+    .explore {
+        flex-direction: column;
+    }
+    .explore-img {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .team {
+        margin: 0;
+    }
+    .single-team {
+        flex-basis: 48%;
+    }
+    .info {
+        height: 92%;
+        padding: 14px 15px 0;
+    }
+    .social-link {
+        margin-left: 109px;
+    }
+    .aminities {
+        flex-direction: column;
+    }
+    .single-aminities {
+        flex-basis: 100%;
+    }
+    .aminities-icon {
+        margin-left: 540px;
+    }
+    .single-aminities span a {
+        color: black;
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+    .clients-area {
+        margin-left: 38px;
+    }
+    .news {
+        flex-direction: column;
+    }
+    .single-news {
+        flex-basis: 100%;
+        margin-bottom: 25px;
+    }
+    .news-info span {
+        font-size: 30px;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact-form {
+        flex-basis: 100%;
+    }
+    .contact-form input {
+        margin-right: 17px;
+    }
+    .contact-info {
+        flex-basis: 100%;
+        margin-top: 45px;
+    }
+    .contact-link a:first-child {
+        font-size: 18px;
+    }
+    .contact-link a i {
+        width: 25px;
+        font-size: 18px;
+    }
+    .contact-area .header-link {
+        margin: 26px 194px;
+    }
+    .promo-area {
+        margin-left: 40px;
+    }
+    .promo {
+        padding: 36px 13px;
+    }
+    .promo span {
+        font-size: 32px;
+    }
+    .promo p {
+        font-size: 14px;
+    }
+    .footer-area {
+        margin-top: 193px;
+    }
+    .single-footer:first-child {
+        flex-basis: 420px;
+        margin-bottom: 58px;
+    }
+    .copyright p {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Mobile Layout: 350px
+
+Checking Size: 400px
+*/
+@media only screen and (max-width: 767px){
+    .container{
+        width: 350px;
+    }
+    .header {
+        flex-direction: column;
+    }
+  
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        padding: 7px 17px;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    .banner-info {
+        flex-basis: 100%;
+        margin-top: 40px;
+    } 
+    .slide-img {
+        flex-basis: 100%;
+        margin-right: -37px;
+        margin-left: -37px;
+        margin-top: 57px;
+    }
+    iframe {
+        margin: 147px 0;
+        width: 366px;
+        height: 238px;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .about-img {
+        flex-basis: 100%;
+    }
+    .about-content {
+        flex-basis: 100%;
+        margin-top: 44px;
+    }
+    .section-info {
+        max-width: 100%;
+    }
+    .section-info h4, .projects-area .projects-content .section-info h4 {
+        font-size: 45px;
+    }
+    .single-about {
+        flex-direction: column;
+    }
+    .facilities-area::before {
+        width: 100%;
+    }
+    .facilities-area .section-info {
+        max-width: 100%;
+        margin-top: -47px;
+    }
+    .facilities-area .section-info p {
+        color: white;
+    }
+    .facilities-area .single-facilities span {
+        color: white;
+    }
+    .facilities-area .banner-link { 
+        margin-left: 267px;
+        margin-top: -311px;
+    }
+    .facilities-area .banner-link a i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        padding-left: 1px;
+    }
+    .single-facilities {
+        flex-basis: 47%;
+    }
+    .single-facilities span {
+        padding: 12px 0;
+        font-size: 15px;
+    }
+    .services-area .section-info, .apartment-area .section-info, .team-area .section-info, .aminities-area .section-info, .news-area .section-info {
+        text-align: center;
+        margin: 0;
+    }
+    .section-info h4, .projects-area .projects-content .section-info h4 {
+        font-size: 41px;
+    }
+    .services {
+        flex-direction: column;
+    }
+    .single-services {
+        flex-basis: 100%;
+        margin-bottom: 24px;
+    }
+    .projects-area .section-info {
+        margin-top: -583px;
+    }
+    .projects {
+        max-width: 100%;
+    }
+    .single-project {
+        flex-direction: column;
+    }
+    .project-img {
+        flex-basis: 100%;
+    }
+    .projects-content h4 {
+        font-size: 35px;
+    }
+    .projects-content {
+        flex-basis: 100%;
+        padding: 32px 9px;
+        margin-top: 22px;
+    }
+    .list {
+        flex-basis: 48%;
+    }
+    .list span {
+        font-size: 12px;
+    }
+    .projects-area .banner-link {
+        margin-left: 28px;
+    }
+    .banner-link button {
+        padding: 15px 35px;
+        font-size: 15px;
+        margin-right: 15px;
+    }
+    .apartment {
+        flex-direction: column;
+    }
+    .apartment-content {
+        flex-basis: 100%;
+    }
+    .apartment-img {
+        flex-basis: 100%;
+        margin-top: 40px;
+    }
+    .propertise {
+        flex-direction: column;
+    }
+    .single-propertise {
+        flex-basis: 100%;
+        margin-bottom: 25px;
+    }
+    .single-img span {
+        margin-top: -205px;
+    }
+    .spaces-head span {
+        font-size: 10px;
+    }
+    .spaces-list span {
+        font-size: 9px;
+    }
+    .explore {
+        flex-direction: column;
+    }
+    .explore-img {
+        flex-basis: 100%;
+        margin-bottom: 25px;
+    }
+    .team {
+        margin: 67px 0;
+        flex-direction: column;
+    }
+    .single-team {
+        flex-basis: 100%;
+    }
+    .info {
+        height: 88%;
+    }
+    .social-link {
+        margin-left: 105px;
+    }
+    .aminities {
+        flex-direction: column;
+    }
+    .aminities-icon {
+        margin-left: 171px;
+    }
+    .single-aminities span a {
+        font-size: 30px;
+    }
+    .single-aminities p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .clients-area {
+        margin-left: 24px;
+    }
+    .clients {
+        flex-direction: column;
+    }
+    .single-client {
+        flex-basis: 100%;
+        margin-bottom: 15px;
+    }
+    .news-area {
+        padding: 570px 0 150px;
+    }
+    .news {
+        flex-direction: column;
+    }
+    .single-news {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact-form input {
+        width: 100%;
+        height: 52px;
+        margin-right: 0;
+        font-size: 14px;
+        margin-bottom: 27px;
+    }
+    .contact-form input[type="text"] {
+        width: 100%;
+        margin: 0;
+    }
+    .contact-form textarea {
+        width: 100%;
+        height: 155px;
+        font-size: 17px;
+        text-transform: capitalize;
+        padding-left: 10px;
+        padding-top: 10px;
+        margin-top: 27px;
+    }
+    .contact-info {
+        flex-basis: 100%;
+        margin-top: 25px;
+    }
+    .contact-area .header-link {
+        margin: 31px 9px 0;
+    }
+    .contact-area .banner-link {
+        margin-left: 1px;
+    }
+    .promo-area {
+        margin-top: 3px;
+        margin-left: 24px;
+    }
+    .promo {
+        flex-direction: column;
+    }
+    .footer-area {
+        margin-top: 238px;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .single-footer:first-child {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+    .single-footer {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+    .copyright p {
+        max-width: 100%;
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .container{
+        width: 450px;
+    }
+
+}
