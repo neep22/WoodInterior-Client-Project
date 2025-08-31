@@ -276,26 +276,6 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.head.appendChild(style);
 
-    // Mobile menu toggle with animation
-    const navbarToggler = document.querySelector('.navbar-toggler');
-    const navbarCollapse = document.querySelector('.navbar-collapse');
-    
-    if (navbarToggler && navbarCollapse) {
-        navbarToggler.addEventListener('click', function() {
-            navbarCollapse.classList.toggle('show');
-            
-            // Animate menu items
-            const navItems = navbarCollapse.querySelectorAll('.nav-item');
-            navItems.forEach((item, index) => {
-                if (navbarCollapse.classList.contains('show')) {
-                    item.style.animation = `slideInDown 0.3s ease ${index * 0.1}s both`;
-                } else {
-                    item.style.animation = 'none';
-                }
-            });
-        });
-    }
-
     // Add slideInDown animation
     const slideInDownStyle = document.createElement('style');
     slideInDownStyle.textContent = `
@@ -328,6 +308,8 @@ document.addEventListener('DOMContentLoaded', function() {
     images.forEach(img => {
         imageObserver.observe(img);
     });
+
+
 
     // Back to top button
     const backToTopBtn = document.createElement('button');
@@ -411,6 +393,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    
+
+
     // FAQ Accordion functionality
     const faqQuestions = document.querySelectorAll('.faq-question');
     faqQuestions.forEach(question => {
@@ -434,6 +419,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Additional safety check to ensure content is visible after a short delay
     setTimeout(ensureContentVisibility, 100);
+
+
 
     // Project Slider Functionality
     let currentSlideIndex = 0;
